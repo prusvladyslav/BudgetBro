@@ -1,0 +1,83 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-native",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "noEmit": true,
+    "target": "es6",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "baseUrl": "src",
+    "paths": {
+      "@components": [
+        "components"
+      ],
+      "@components/*": [
+        "components/*"
+      ],
+      "@context": [
+        "context"
+      ],
+      "@context/*": [
+        "context/*"
+      ],
+      "@api": [
+        "api"
+      ],
+      "@api/*": [
+        "api/*"
+      ],
+      "@helpers": [
+        "helpers"
+      ],
+      "@helpers/*": [
+        "helpers/*"
+      ],
+      "@screens": [
+        "screens"
+      ],
+      "@screens/*": [
+        "screens/*"
+      ],
+      "@types": [
+        "types"
+      ],
+      "@types/*": [
+        "types/*"
+      ],
+      "@srcTypes/*": [
+        "types/*"
+      ],
+      "@utils": [
+        "utils"
+      ],
+      "@utils/*": [
+        "utils/*"
+      ],
+      "@mocks": [
+        "mocks"
+      ],
+      "@mocks/*": [
+        "mocks/*"
+      ],
+      "@constants/*": [
+        "constants/*"
+      ],
+      "@constants": [
+        "constants"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "extends": "expo/tsconfig.base"
+}

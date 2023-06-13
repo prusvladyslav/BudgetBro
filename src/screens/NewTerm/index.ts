@@ -1,0 +1,1 @@
+export { NewTerm } from './NewTerm'

@@ -3,11 +3,10 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { MainScreen, Settings, History, NewDay, NewTerm, Statistic } from '@screens'
 import { getData } from '@utils/asyncStore';
 import { observer } from 'mobx-react-lite';
-import React, { useCallback, useEffect, useMemo } from 'react';
+import React, { useEffect } from 'react';
 import { killHistory } from '@utils/asyncStore/killHistory';
 import { StatisticItem } from '@components/StatisticItem/StatisticItem';
 
-// SplashScreen.preventAutoHideAsync();
 
 const App = observer(() => {
 
